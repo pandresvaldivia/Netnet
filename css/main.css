@@ -72,7 +72,7 @@
 	background: var(--grey10);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
 	.body {
 		display: flex;
 		justify-content: center;

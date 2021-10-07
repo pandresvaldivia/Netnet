@@ -9,7 +9,7 @@
 	padding-inline-start: 16px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
 	.wrapper {
 		inline-size: 375px;
 		overflow-y: auto;
