@@ -1,0 +1,22 @@
+.header {
+	position: sticky;
+	top: 0;
+	background: var(--black);
+	z-index: 1;
+}
+
+.profile-photo {
+	margin: 0;
+	block-size: 275px;
+	text-align: center;
+}
+
+.profile-photo img {
+	vertical-align: middle;
+	block-size: 100%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+.sinopsis {
+	margin-block-end: 16px;
+	margin-block-start: 16px;
+}
+
+.sinopsis ul {
+	padding-inline-start: 16px;
+}
+
+.cast {
+	font: var(--body2-regular);
+	opacity: 0.5;
+}
+
+.cast p {
+	margin-block-start: 4px;
+	margin-block-end: 0;
+}
+
+.cast span {
+	font-weight: 600;
+}

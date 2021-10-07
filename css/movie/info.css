@@ -1,0 +1,54 @@
+.movie-title {
+	font: var(--headline1);
+	margin: 0;
+}
+
+.movie-info {
+	padding-block-end: 16px;
+	padding-block-start: 16px;
+}
+
+.movie-info-content {
+	display: flex;
+	font: var(--body1-regular);
+	color: var(--grey);
+	justify-content: space-between;
+	align-items: center;
+}
+
+.movie-percentage {
+	font: var(--body1-bold);
+	color: var(--green);
+}
+
+.movie-data {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.movie-clasification {
+	font: var(--body1-bold);
+	color: var(--white);
+	padding-inline-end: 4px;
+	padding-inline-start: 4px;
+	background: var(--grey);
+	border-radius: 2px;
+	margin-inline-end: 16px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.movie-quality {
+	color: var(--white);
+	padding-inline-end: 4px;
+	padding-inline-start: 4px;
+	border-radius: 2px;
+	border: 1px solid #4d4d4d;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}

@@ -1,0 +1,10 @@
+.actions {
+	display: flex;
+	gap: 24px;
+	margin-block-end: 24px;
+	margin-block-start: 24px;
+}
+
+.actions .button-action span {
+	color: var(--grey);
+}

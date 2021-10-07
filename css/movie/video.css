@@ -1,0 +1,30 @@
+.video {
+	inline-size: 100%;
+	block-size: 275px;
+	vertical-align: middle;
+	object-fit: cover;
+}
+
+.video-details {
+	background: linear-gradient(to top, #000000 30%, rgba(0, 0, 0, 0) 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	bottom: -36px;
+	inline-size: 100%;
+}
+
+.video-tags {
+	font: var(--body2-regular);
+}
+
+.video-buttons {
+	inline-size: 312px;
+	block-size: 43px;
+	display: flex;
+	padding-inline-end: 10px;
+	padding-inline-start: 10px;
+	justify-content: space-between;
+	align-items: center;
+}

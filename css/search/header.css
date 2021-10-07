@@ -1,0 +1,43 @@
+.header {
+	position: sticky;
+	top: 0;
+	background: var(--black);
+	z-index: 1;
+	padding-block-end: 8px;
+}
+
+.search {
+	inline-size: 100%;
+	position: relative;
+}
+
+.search i {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.search input {
+	inline-size: 100%;
+	padding-block-end: 8px;
+	padding-block-start: 8px;
+	padding-inline-start: 38px;
+	padding-inline-end: 16px;
+	border: none;
+	outline: none;
+	background: var(--grey10);
+	color: var(--white);
+}
+
+.search input::placeholder {
+	color: var(--white);
+	opacity: 1;
+}
+
+.search input:-ms-input-placeholder {
+	color: var(--white);
+}
+
+.search input::-ms-input-placeholder {
+	color: var(--white);
+}

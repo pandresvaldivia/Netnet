@@ -1,0 +1,40 @@
+.movies-calatog {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.category-title {
+	margin-block-start: 8px;
+	margin-block-end: 14px;
+	padding-inline-start: 16px;
+	font: var(--subtitle1);
+}
+
+.movie-option {
+	display: flex;
+	background: var(--black10);
+	text-decoration: none;
+	color: var(--white);
+}
+
+.movie-description {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	justify-content: space-between;
+	padding-inline-end: 10px;
+	padding-inline-start: 10px;
+}
+
+.movie-poster {
+	margin: 0;
+	block-size: 60px;
+	inline-size: 115px;
+	overflow: hidden;
+}
+
+.movie-poster img {
+	inline-size: 100%;
+	vertical-align: middle;
+}

@@ -1,0 +1,29 @@
+.movies {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding-block-start: 84px;
+}
+
+.similar-movies {
+	padding-block-start: 12px;
+	position: relative;
+}
+
+.similar-movies::before {
+	content: '';
+	display: block;
+	inline-size: 105px;
+	block-size: 4px;
+	background: var(--red);
+	position: absolute;
+	top: 0;
+	left: 16px;
+}
+
+.category-title {
+	padding-inline-start: 16px;
+	font: var(--subtitle1);
+	margin-block-start: 0;
+	margin-block-end: 8px;
+}

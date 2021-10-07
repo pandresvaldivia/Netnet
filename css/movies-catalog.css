@@ -1,0 +1,36 @@
+.movies-calatog {
+	display: flex;
+	gap: 8px;
+	overflow: auto;
+	padding-inline-end: 16px;
+	padding-inline-start: 16px;
+}
+
+.movies-calatog {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.movie-poster {
+	margin: 0;
+	inline-size: 96px;
+	block-size: 144px;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.movie-poster img {
+	inline-size: auto;
+	block-size: 100%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	vertical-align: middle;
+}
+
+.projects .movie-poster img {
+	inline-size: 100%;
+	block-size: auto;
+}

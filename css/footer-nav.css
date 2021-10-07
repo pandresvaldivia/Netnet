@@ -1,0 +1,13 @@
+.footer-nav {
+	padding-block-end: 13px;
+	padding-block-start: 12px;
+	background: var(--black);
+	position: sticky;
+	bottom: 0;
+	inline-size: 100%;
+}
+
+.footer-nav-content {
+	display: flex;
+	justify-content: space-evenly;
+}

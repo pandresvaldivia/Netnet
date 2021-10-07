@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('../fonts/Avenir.ttc');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--white: #ffffff;
+	--grey: #8b8b8b;
+	--grey10: #686868;
+	--black: #000000;
+	--black10: #1f1f1f;
+	--red: #d22f26;
+	--bg: #ff5251;
+	--green: #71d074;
+	--fontBase: 'Avenir Next', sans-serif;
+	--subtitle1: 700 1.09375rem / normal var(--fontBase);
+	--headline1: 700 1.708984375rem / normal var(--fontBase);
+	--button: 600 0.699999988079071rem / normal var(--fontBase);
+	--body1-bold: 700 0.875rem/1.5rem var(--fontBase);
+	--body1-demibold: 600 0.875rem/1.5rem var(--fontBase);
+	--body1-regular: 400 0.875rem/1.5rem var(--fontBase);
+	--body2-demibold: 600 0.699999988079071rem / normal var(--fontBase);
+	--body2-regular: 400 0.699999988079071rem / normal var(--fontBase);
+}
+
+.body {
+	background: var(--bg);
+	margin: 0;
+	color: var(--white);
+	font: var(--body1-regular);
+	block-size: 100vh;
+}
+
+.main {
+	background: black;
+	padding-block-end: 8px;
+}
+
+.profile {
+	margin: 0;
+	block-size: 24px;
+	inline-size: 24px;
+}
+
+.profile img {
+	inline-size: 100%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+	inline-size: 8px;
+	block-size: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--black10);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--grey);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--grey10);
+}
+
+@media screen and (min-width: 400px) {
+	.body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	::-webkit-scrollbar {
+		display: block;
+	}
+}

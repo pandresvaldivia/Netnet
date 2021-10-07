@@ -1,0 +1,17 @@
+.wrapper {
+	background: var(--black);
+	block-size: 100vh;
+	max-block-size: 812px;
+}
+
+.mini-wrapper {
+	padding-inline-end: 16px;
+	padding-inline-start: 16px;
+}
+
+@media screen and (min-width: 400px) {
+	.wrapper {
+		inline-size: 375px;
+		overflow-y: auto;
+	}
+}
