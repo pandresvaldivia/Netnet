@@ -90,10 +90,10 @@
 	</head>
 	<body class="body">
 		<div class="wrapper">
-			<div class="header">
+			<header class="header">
 				<div class="navigation">
 					<button class="navigation-prev" aria-label="Volver" title="Volver">
-						<i class="icon-back"></i>
+						<i class="icon-back" aria-hidden="true"></i>
 					</button>
 					<figure class="profile">
 						<a href="../profile.html">
@@ -106,24 +106,24 @@
 						</a>
 					</figure>
 				</div>
-				<header>
-					<div class="video-container">
-						<video
-							class="video"
-							poster="../assets/images/horizontal-poster/spiderman-poster.webp"
-							loop
-							autoplay
-							muted
-						>
-							<source src="../assets/videos/spiderman.mp4" />
-							Your browser does not support the video tag.
-						</video>
-						<button class="sound-button" aria-label="Sileciar trailer">
-							<i class="icon-volume mute" aria-hidden="true"></i>
-						</button>
-					</div>
-				</header>
-			</div>
+				<div class="video-container">
+					<video
+						class="video"
+						poster="../assets/images/horizontal-poster/spiderman-poster.webp"
+						height="275"
+						width="375"
+						loop
+						autoplay
+						muted
+					>
+						<source src="../assets/videos/spiderman.mp4" />
+						Your browser does not support the video tag.
+					</video>
+					<button class="sound-button is-muted" aria-label="Sileciar trailer">
+						<i class="icon-volume" aria-hidden="true"></i>
+					</button>
+				</div>
+			</header>
 			<main class="main">
 				<div class="mini-wrapper">
 					<section class="movie-info">
@@ -140,10 +140,10 @@
 					</section>
 					<section class="buttons-section">
 						<button class="button-lg-white">
-							<i class="icon-play"></i>Reproducir
+							<i class="icon-play" aria-hidden="true"></i>Reproducir
 						</button>
 						<button class="button-lg">
-							<i class="icon-download"></i>Descargar
+							<i class="icon-download" aria-hidden="true"></i>Descargar
 						</button>
 					</section>
 					<section class="details">
@@ -164,19 +164,20 @@
 						</article>
 					</section>
 					<section class="actions">
-						<button class="button-action">
-							<i class="icon-plus"></i><span>Mi lista</span>
+						<button class="button-add">
+							<i class="icon-plus" aria-hidden="true"></i><span>Mi lista</span>
 						</button>
 						<button class="button-action">
-							<i class="icon-like"></i><span>Calificar</span>
+							<i class="icon-like" aria-hidden="true"></i><span>Calificar</span>
 						</button>
 						<button class="button-action">
-							<i class="icon-email"></i><span>Compartir</span>
+							<i class="icon-email" aria-hidden="true"></i
+							><span>Compartir</span>
 						</button>
 					</section>
 				</div>
-				<section class="similar-movies">
-					<h2 class="category-title">Más similares</h2>
+				<section class="similar-movies" aria-labelledby="similares">
+					<h2 id="similares" class="category-title">Más similares</h2>
 					<div class="movies-calatog">
 						<figure class="movie-poster">
 							<a href="./matrix-reloaded.html">
@@ -272,18 +273,20 @@
 				</section>
 			</main>
 			<div class="footer-nav">
-				<nav class="footer-nav-content">
-					<a class="button-selected" href="../index.html">
-						<i class="icon-home"></i><span>Inicio</span>
+				<nav class="footer-nav-content" aria-label="Menu principal">
+					<a class="button-selected" href="/">
+						<i class="icon-home" aria-hidden="true"></i><span>Inicio</span>
 					</a>
 					<button class="button">
-						<i class="icon-cinema"></i><span>Próximamente</span>
+						<i class="icon-cinema" aria-hidden="true"></i
+						><span>Próximamente</span>
 					</button>
 					<a class="button" href="../search.html">
 						<i class="icon-search"></i><span>Buscar</span>
 					</a>
 					<button class="button">
-						<i class="icon-dowload"></i><span>Descargas</span>
+						<i class="icon-dowload" aria-hidden="true"></i
+						><span>Descargas</span>
 					</button>
 				</nav>
 			</div>

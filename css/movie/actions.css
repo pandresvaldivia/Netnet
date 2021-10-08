@@ -5,6 +5,6 @@
 	margin-block-start: 24px;
 }
 
-.actions .button-action span {
+.actions [class^='button-'] span {
 	color: var(--grey);
 }

@@ -11,19 +11,19 @@
 }
 
 .similar-movies::before {
+	background: var(--red);
+	block-size: 4px;
 	content: '';
 	display: block;
 	inline-size: 105px;
-	block-size: 4px;
-	background: var(--red);
+	left: 16px;
 	position: absolute;
 	top: 0;
-	left: 16px;
 }
 
 .category-title {
-	padding-inline-start: 16px;
 	font: var(--subtitle1);
-	margin-block-start: 0;
 	margin-block-end: 8px;
+	margin-block-start: 0;
+	padding-inline-start: 16px;
 }

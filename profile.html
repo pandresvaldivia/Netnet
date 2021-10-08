@@ -92,10 +92,10 @@
 			<div class="header">
 				<div class="navigation">
 					<button class="navigation-prev" aria-label="Volver" title="Volver">
-						<i class="icon-back"></i>
+						<i class="icon-back" aria-hidden="true"></i>
 					</button>
 					<figure class="profile">
-						<a href="./profile.html">
+						<a href="./profile.html" aria-current="page">
 							<img
 								src="./assets/images/profile-mini.webp"
 								alt="Imagen de perfil"
@@ -138,7 +138,8 @@
 							<i class="icon-email"></i>Contactar
 						</a>
 						<button class="button-lg">
-							<i class="icon-download"></i>Descargar currículum
+							<i class="icon-download" aria-hidden="true"></i>Descargar
+							currículum
 						</button>
 					</section>
 					<section class="details">
@@ -167,7 +168,7 @@
 							<p>Creado por: @pandresvaldivia</p>
 						</article>
 					</section>
-					<section class="actions">
+					<section class="actions" aria-label="Redes sociales">
 						<a
 							class="button-action"
 							href="https://github.com/pandresvaldivia/"
@@ -183,7 +184,7 @@
 							target="_blank"
 							rel="noreferrer"
 						>
-							<i class="icon-twitter"></i>
+							<i class="icon-twitter" aria-hidden="true"></i>
 							<span>Twitter</span>
 						</a>
 						<a
@@ -191,13 +192,13 @@
 							id="mailTo"
 							href="mailto:pandresdev@gmail.com"
 						>
-							<i class="icon-gmail"></i>
+							<i class="icon-gmail" aria-hidden="true"></i>
 							<span>Gmail</span>
 						</a>
 					</section>
 				</div>
-				<section class="similar-movies">
-					<h2 class="category-title">Más proyectos</h2>
+				<section class="similar-movies" aria-labelledby="proyectos">
+					<h2 id="proyectos" class="category-title">Más proyectos</h2>
 					<div class="movies-calatog projects">
 						<figure class="movie-poster">
 							<a
@@ -306,7 +307,7 @@
 						</figure>
 						<figure class="movie-poster">
 							<a
-								href="pandresvaldivia.github.io/recipe-blog/"
+								href="https://pandresvaldivia.github.io/Recipe-blog/"
 								target="_blank"
 								rel="noreferrer"
 								title="Recipe blog"
@@ -338,18 +339,20 @@
 				</section>
 			</main>
 			<div class="footer-nav">
-				<nav class="footer-nav-content">
-					<a class="button-selected" href="./index.html">
-						<i class="icon-home"></i><span>Inicio</span>
+				<nav class="footer-nav-content" aria-label="Menu principal">
+					<a class="button-selected" href="/">
+						<i class="icon-home" aria-hidden="true"></i><span>Inicio</span>
 					</a>
 					<button class="button">
-						<i class="icon-cinema"></i><span>Próximamente</span>
+						<i class="icon-cinema" aria-hidden="true"></i
+						><span>Próximamente</span>
 					</button>
 					<a class="button" href="./search.html">
-						<i class="icon-search"></i><span>Buscar</span>
+						<i class="icon-search" aria-hidden="true"></i><span>Buscar</span>
 					</a>
 					<button class="button">
-						<i class="icon-dowload"></i><span>Descargas</span>
+						<i class="icon-dowload" aria-hidden="true"></i
+						><span>Descargas</span>
 					</button>
 				</nav>
 			</div>

@@ -72,11 +72,11 @@
 	content: '\ea27';
 }
 
-.mute.icon-volume:before {
+.is-muted .icon-volume:before {
 	content: '\ea2a';
 }
 
-.added.icon-plus::before {
+.is-added .icon-plus::before {
 	content: '\e900';
 	font-size: 1rem;
 }

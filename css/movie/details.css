@@ -13,8 +13,8 @@
 }
 
 .cast p {
-	margin-block-start: 4px;
 	margin-block-end: 0;
+	margin-block-start: 4px;
 }
 
 .cast span {

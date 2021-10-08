@@ -1,5 +1,5 @@
 function mute(e, video) {
-	const isMute = e.target.classList.toggle('mute');
+	const isMute = e.classList.toggle('is-muted');
 	video.muted = isMute ? true : false;
 }
 
@@ -7,8 +7,8 @@ function goBack() {
 	window.history.back();
 }
 
-function addMovie(e) {
-	e.target.classList.toggle('added');
+function addMovie() {
+	this.classList.toggle('is-added');
 }
 
 function focusHandle(tab, video) {

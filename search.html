@@ -86,10 +86,14 @@
 	<body class="body">
 		<div class="wrapper">
 			<div class="header">
-				<header aria-label="Barra superior y menú del usuario">
-					<div class="navigation">
+				<header>
+					<div
+						class="navigation"
+						role="navigation"
+						aria-label="menu secundario"
+					>
 						<button class="navigation-prev" aria-label="Volver" title="Volver">
-							<i class="icon-back"></i>
+							<i class="icon-back" aria-hidden="true"></i>
 						</button>
 						<figure class="profile">
 							<a href="./profile.html">
@@ -109,7 +113,7 @@
 						aria-label="Buscar una serie, una peli, un género, etc."
 						role="search"
 					>
-						<i class="icon-search"></i>
+						<i class="icon-search" aria-hidden="true"></i>
 						<input
 							type="search"
 							name="search"
@@ -119,8 +123,8 @@
 				</header>
 			</div>
 			<main class="main">
-				<section>
-					<h2 class="category-title">Los más buscados</h2>
+				<section aria-labelledby="buscados">
+					<h2 id="buscados" class="category-title">Los más buscados</h2>
 					<div class="movies-calatog">
 						<article>
 							<a class="movie-option" href="./movies/matrix-reloaded.html">
@@ -474,14 +478,14 @@
 				</section>
 			</main>
 			<div class="footer-nav">
-				<nav class="footer-nav-content">
-					<a class="button" href="./index.html">
+				<nav class="footer-nav-content" aria-label="Menu principal">
+					<a class="button" href="/">
 						<i class="icon-home"></i><span>Inicio</span>
 					</a>
 					<button class="button">
 						<i class="icon-cinema"></i><span>Próximamente</span>
 					</button>
-					<a class="button-selected" href="./search.html">
+					<a class="button-selected" href="./search.html" aria-current="page">
 						<i class="icon-search"></i><span>Buscar</span>
 					</a>
 					<button class="button">

@@ -5,22 +5,22 @@
 }
 
 .category-title {
-	margin-block-start: 8px;
-	margin-block-end: 14px;
-	padding-inline-start: 16px;
 	font: var(--subtitle1);
+	margin-block-end: 14px;
+	margin-block-start: 8px;
+	padding-inline-start: 16px;
 }
 
 .movie-option {
-	display: flex;
 	background: var(--black10);
-	text-decoration: none;
 	color: var(--white);
+	display: flex;
+	text-decoration: none;
 }
 
 .movie-description {
-	display: flex;
 	align-items: center;
+	display: flex;
 	flex: 1;
 	justify-content: space-between;
 	padding-inline-end: 10px;
@@ -28,9 +28,9 @@
 }
 
 .movie-poster {
-	margin: 0;
 	block-size: 60px;
 	inline-size: 115px;
+	margin: 0;
 	overflow: hidden;
 }
 

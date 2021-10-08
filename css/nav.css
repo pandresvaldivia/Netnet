@@ -1,11 +1,12 @@
 .nav-links {
 	display: flex;
-	list-style: none;
-	padding: 0;
 	inline-size: 235px;
 	justify-content: space-between;
-	margin: 0 auto;
+	list-style: none;
 	margin-block-start: 24px;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
+	padding: 0;
 }
 
 .nav-links a {

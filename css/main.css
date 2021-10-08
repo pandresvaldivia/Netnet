@@ -28,10 +28,10 @@
 
 .body {
 	background: var(--bg);
-	margin: 0;
+	block-size: 100vh;
 	color: var(--white);
 	font: var(--body1-regular);
-	block-size: 100vh;
+	margin: 0;
 }
 
 .main {
@@ -40,14 +40,14 @@
 }
 
 .profile {
-	margin: 0;
 	block-size: 24px;
 	inline-size: 24px;
+	margin: 0;
 }
 
 .profile img {
-	inline-size: 100%;
 	border-radius: 2px;
+	inline-size: 100%;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	-ms-border-radius: 2px;
@@ -55,9 +55,9 @@
 }
 
 ::-webkit-scrollbar {
+	block-size: 4px;
 	display: none;
 	inline-size: 8px;
-	block-size: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -74,9 +74,9 @@
 
 @media screen and (min-width: 480px) {
 	.body {
+		align-items: center;
 		display: flex;
 		justify-content: center;
-		align-items: center;
 	}
 
 	::-webkit-scrollbar {

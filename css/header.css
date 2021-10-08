@@ -1,16 +1,16 @@
 .header {
-	position: relative;
 	block-size: 549px;
+	position: relative;
 }
 
 .header-content {
-	position: absolute;
-	block-size: 198px;
-	inline-size: 100%;
-	padding: 16px;
-	box-sizing: border-box;
 	background: linear-gradient(180deg, #191919 0%, rgba(0, 0, 0, 0) 100%),
 		linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 101.98%);
+	block-size: 198px;
+	box-sizing: border-box;
+	inline-size: 100%;
+	padding: 16px;
+	position: absolute;
 }
 
 .header-top {
